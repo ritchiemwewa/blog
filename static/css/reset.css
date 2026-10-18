@@ -1,34 +1,39 @@
 :root {
   color-scheme: light;
-  --bgcolor: #ebdbb2;
-  --surface: #fbf1c7;
-  --fontcolor: #282828;
-  --muted: #3c3836;
-  --border: #282828;
-  --accent: #fe8019;
-  --prebgcolor: #fbf1c7;
+  --bgcolor: #f6f5f1;
+  --surface: #ffffff;
+  --fontcolor: #111111;
+  --muted: #3d3d3d;
+  --border: #111111;
+  --prebgcolor: #ffffff;
   --radius: 10px;
   --radius-sm: 6px;
+  /* One accent color, plus the text color that sits on it */
+  --accent: #60a5fa;
+  --on-accent: #111111;
+  --accent-soft: color-mix(in srgb, var(--accent) 14%, var(--surface));
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bgcolor: #282828;
-  --surface: #35312f;
-  --fontcolor: #ebdbb2;
-  --muted: #c0b1a2;
-  --border: #1d2021;
-  --accent: #fbf1c7;
-  --prebgcolor: #1d2021;
+  --bgcolor: #161618;
+  --surface: #232327;
+  --fontcolor: #f2f2f2;
+  --muted: #b5b5b5;
+  --border: #000000;
+  --prebgcolor: #111113;
+  --accent: #60a5fa;
+  --on-accent: #111111;
+  --accent-soft: color-mix(in srgb, var(--accent) 22%, var(--surface));
 }
 
 * { box-sizing: border-box; }
 html { overflow-y: scroll; }
 body { margin: 0; background: var(--bgcolor); color: var(--fontcolor); font: 18px/1.75 Arial, Helvetica, sans-serif; }
-a { color: inherit; text-underline-offset: 4px; }
+a { color: inherit; text-underline-offset: 4px; text-decoration-color: var(--accent); }
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 3px solid var(--fontcolor); outline-offset: 5px; }
-::selection { background: var(--accent); color: #282828; }
+::selection { background: var(--accent); color: var(--on-accent); }
 h1, h2, h3, h4 { line-height: 1.15; letter-spacing: -0.035em; }
 h1 { font-size: clamp(2rem, 6vw, 3.3rem); }
 h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); }
@@ -38,7 +43,7 @@ figcaption { color: var(--muted); font-size: 0.85rem; text-align: center; }
 code, pre { font-family: Iosevka, monospace; }
 :not(pre) > code { background: var(--surface); padding: 0.1em 0.3em; overflow-wrap: anywhere; }
 pre { padding: 1.25rem; overflow-x: auto; color: var(--fontcolor); background: var(--prebgcolor); border: 2px solid var(--border); border-radius: var(--radius-sm); line-height: 1.5; }
-blockquote { margin: 2rem 0; padding: 0.1rem 1.5rem; border-left: 5px solid var(--fontcolor); }
+blockquote { margin: 2rem 0; padding: 0.1rem 1.5rem; border-left: 5px solid var(--accent); }
 table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
 th, td { padding: 0.5rem 0.75rem; border: 1px solid var(--muted); }
 hr { border: 0; border-top: 2px solid var(--border); margin: 2rem 0; }

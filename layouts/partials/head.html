@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ebdbb2">
+<meta name="theme-color" content="#f6f5f1">
 <!--Handles the theme toggle button (dark/light mode)-->
 <script>
   (() => {
@@ -29,7 +29,7 @@
     let theme = savedTheme === 'light' || (savedTheme !== 'dark' && !system.matches) ? 'light' : 'dark';
     const update = () => {
       document.documentElement.dataset.theme = theme;
-      document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#ebdbb2' : '#282828';
+      document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#f6f5f1' : '#161618';
       const button = document.querySelector('.theme-toggle');
       const label = theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme';
       if (button) { button.ariaLabel = label; button.title = label; }
