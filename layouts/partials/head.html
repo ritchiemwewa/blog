@@ -31,7 +31,8 @@
       document.documentElement.dataset.theme = theme;
       document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#ebdbb2' : '#282828';
       const button = document.querySelector('.theme-toggle');
-      if (button) button.textContent = theme === 'light' ? 'Nox' : 'Lux';
+      const label = theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme';
+      if (button) { button.ariaLabel = label; button.title = label; }
     };
     update();
     system.addEventListener('change', () => {

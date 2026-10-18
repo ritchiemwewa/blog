@@ -13,8 +13,10 @@
       {{ $url := .URL | relURL }}
       {{ $exact := eq (strings.TrimRight "/" $page.RelPermalink) (strings.TrimRight "/" $url) }}
       {{ $section := and (ne $url "/") (hasPrefix $page.RelPermalink (printf "%s/" (strings.TrimRight "/" $url))) }}
-      <a href="{{ $url }}"{{ if $exact }} aria-current="page"{{ else if $section }} aria-current="true"{{ end }}>{{ .Name }}</a>
+      <a href="{{ $url }}"{{ if $exact }} aria-current="page"{{ else if $section }} aria-current="true"{{ end }}>
+        {{- with .Params.icon }}{{ partial "icon.html" . }}{{ end -}}
+        {{ .Name }}</a>
     {{ end }}
   </nav>
-  <button class="theme-toggle theme-toggle-btn" type="button" aria-label="Toggle theme">Nox</button>
+  <button class="theme-toggle theme-toggle-btn" type="button" aria-label="Toggle theme" title="Toggle theme">{{ partial "icon.html" "moon-fill" }}{{ partial "icon.html" "sun-fill" }}</button>
 </header>

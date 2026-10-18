@@ -4,7 +4,7 @@
     Find me around the web:
   <div class="social-links">
     {{ range .Site.Params.social }}
-      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{- .name -}}</a>
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{- with .icon }}{{ partial "icon.html" . }}{{ end }}{{ .name -}}</a>
     {{ end }}
   </div>
 </div>

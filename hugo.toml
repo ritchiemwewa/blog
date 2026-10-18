@@ -14,49 +14,62 @@ title = "Ritchie Mwewa"
 
   [[params.social]]
     name = "Email"
+    icon = "mail"
     url = "mailto:ritchie@mwewa.org"
   [[params.social]]
     name = "GitHub"
+    icon = "github"
     url = "https://github.com/ritchiemwewa"
   [[params.social]]
     name = "Codeberg"
+    icon = "codeberg"
     url = "https://codeberg.org/ritchiemwewa"
   [[params.social]]
     name = "LinkedIn"
+    icon = "linkedin"
     url = "https://linkedin.com/in/ritchiemwewa"
   [[params.social]]
     name = "Bluesky"
+    icon = "bluesky"
     url = "https://bsky.app/profile/mwewa.org"
   [[params.social]]
     name = "Gravatar"
+    icon = "gravatar"
     url = "https://gravatar.com/ritchiemwewa"
 
 [menu]
   [[menu.main]]
     name = "Home"
+    params = { icon = "house-fill" }
     url = "/"
     weight = 1
   [[menu.main]]
     name = "About"
+    params = { icon = "person-fill" }
     url = "/about"
     weight = 2
   [[menu.main]]
     name = "Posts"
+    params = { icon = "file-earmark-text-fill" }
     url = "/posts"
     weight = 3
   [[menu.main]]
     name = "RSS"
+    params = { icon = "rss-fill" }
     url = "/index.xml"
     weight = 8
   [[menu.main]]
     name = "Projects"
+    params = { icon = "folder-fill" }
     url = "/projects"
     weight = 5
   [[menu.main]]
     name = "Tags"
+    params = { icon = "tag-fill" }
     url = "/tags"
     weight = 6
   [[menu.main]]
     name = "Categories"
+    params = { icon = "grid-fill" }
     url = "/categories"
     weight = 7
