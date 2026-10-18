@@ -8,12 +8,12 @@ If you know me from my dev or open source work, you probably know me as **rly0nh
 
 I've made the decision to start using **mwewa** for my online accounts/handles. **rly0nheart** carried me through my early projects and a lot of learning, but at some point, it started to look less professional than I'd like. I think a name people can read, say, and take seriously, at least to some degree, makes more sense. 
 
-> [!Abstract] PS
+> [!Info] PS
 > I have nothing against leet haxor names. I've had rly0nheart since 2019. For all intents and purposes, *I'm something of a leet haxor myself.*
 
 ![leet haxor](https://imagepaste.org/i/w28vg923.jpg)
 
-It feels like I'm letting go of something very important to me, and that feeling sucks, but this is mostly about consistency. My site now lives at mwewa.org, and I want one name everywhere I show up online. rly0nheart.com was consistent with the handle rly0nheart, but it started to seem less professional, in my opinion.
+It feels like I'm letting go of something very important to me, and that feeling sucks, but this is mostly about consistency. My site now lives at mwewa.org, and I want one name everywhere I show up online. rly0nheart.com was consistent with the handle rly0nheart, but as I've mentioned already, it started to seem less professional.
 
 So far, I've claimed **mwewa** on [GitLab](https://gitlab.com/mwewa), [Codeberg](https://codeberg.org/mwewa), and [PyPI](https://pypi.org/user/mwewa/), and I'll grab it on other sites (where available) as I go. GitHub is the sore spot. Someone took mwewa back in 2018 and never touched it again. There are no repos, no stars, no name, and no profile picture. Last I checked, GitHub doesn't release usernames just because they look unused, so I'm still rly0nheart there for now. Oh, and Gravatar is taken too, so tough luck.
 
@@ -21,4 +21,4 @@ So far, I've claimed **mwewa** on [GitLab](https://gitlab.com/mwewa), [Codeberg]
 
 I'll remain rly0nheart on some platforms that don't have mwewa as an available username until I figure something out.
 
-Here's to new beginnings! And to never spelling out "lionheart" again.
+Here's to new beginnings! And to never spelling out "lionheart" again?
