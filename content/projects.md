@@ -3,9 +3,9 @@ title: Projects
 layout: default
 ---
 
-* [**bugpipe**](https://github.com/rly0nheart/bugpipe) — *Unofficial Python client for Buganizer; the Google Issue Tracking system.*
+* [**bugpipe**](https://bugpipe.readthedocs.io) — *Unofficial Python client for Buganizer; the Google Issue Tracking system.*
 
-* [**knewkarma**](https://pypi.org/project/knewkarma) — *A zero-auth toolkit for Reddit data analysis.*
+* [**knewkarma**](https://knewkarma.readthedocs.io) — *A zero-auth toolkit for Reddit data analysis.*
 
 * [**pyahmia**](https://pypi.org/project/pyahmia) — *Search hidden services on the Tor network* 
 
